@@ -1,58 +1,23 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #E3D4B9;
-}
-
-.navbar-main-container {
-    background-color: brown;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.project-name {
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.logo {
-    border-radius: 30px;
-}
-
-.nav-links-container {
-    display: flex;
-    gap: 20px;
-    cursor: pointer;
-}
-
-.menu-item {
-    text-decoration: none;
-    color: white;
-}
-
-.auth-links-container {
-    display: flex;
-    gap: 20px;
-    cursor: pointer;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
 
 header img {
-    height: 45px;
-    width: 45px;
-    border-radius: 50px;
-    margin-right: 15px;
+    background-color: #4b3D2D;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
+
 header {
     background-color: #4b3D2D;
     padding: 8px 20px;
@@ -73,8 +38,8 @@ div a {
 .book-container {
     display: flex;
     gap: 30px;
-    justify-content: center;
-    padding: 20px;
+    justify-content: space-evenly;
+    padding: 10px;
     flex-wrap: wrap;
 
 }
@@ -111,7 +76,45 @@ div a {
 .price {
     font-size: 15px;
     margin: 8px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
 
+.book-card {
+    background-color: lightyellow;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px grey;
+}
+
+.book-card:hover {
+    transform: translateY(-4px);
+}
+
+.book-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.book-title {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.book-author {
+    font-size: 13px;
+}
+
+.price {
+    font-size: 15px;
+    margin: 8px 0;
 }
 
 button {
@@ -136,3 +139,5 @@ button {
 =======
 >>>>>>> 725f2ed2683fb5a3cf43382637a211f042519045
 }
+
+</html>
