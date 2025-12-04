@@ -104,14 +104,21 @@ body {
 
 }
 .sample-page-2{
-  background-color: aquamarine;
+
     height: 400px;
     width: 300px;
+    margin-left: 20px;
    
 }
 .location-logo{
     text-decoration: none;
     color: black;
     align-items: center;
+    margin-bottom: 20px;
 }
+.info-task{
+    margin-bottom: 10px;
+}
+
+
 
