@@ -32,8 +32,6 @@ We welcome contributors from the community to help us expand and improve this ha
 
 ## Contributors
 
-<a href="https://github.com/css-github-project-1-digital-library/undefined/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=css-github-project-1-digital-library/undefined" />
+<a href="https://github.com/rinalshinde10/css-github-project-1-digital-library/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=rinalshinde10/css-github-project-1-digital-library" />
 </a>
-
-Made with [contrib.rocks](https://contrib.rocks).
