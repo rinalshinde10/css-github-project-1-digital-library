@@ -1,5 +1,9 @@
 
-body
+body{
+    margin:0;
+    padding: 0;
+    background-color: #E3D4B9;
+}
 .book-container{
     display:flex;
     gap:30px;
@@ -15,7 +19,8 @@ body
     border-radius: 10px;
     box-shadow: 0 4px 10px grey;
 }
-.book-card:hover{transform: translateY(-4px);
+.book-card:hover{
+    transform: translateY(-4px);
 }
 .book-card img{
     width: 100%;
@@ -28,22 +33,12 @@ body
     margin-top: 8px;
 }
 .book-author{
-    font: 13px;
+    font-size: 13px;
 }
 .price{
-    font-size: 13px;
+    font-size: 15px;
     margin:8px  0;
 }
-.button {
-    background-color: #4b3D2D; 
-    color:white;
-    font-size: 13px;
-    padding: 6px 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .button {
     background-color: #4b3D2D; 
     color:white;
@@ -61,4 +56,10 @@ body
 
 .button:hover{
     background-color:#e3b785;
+}
+.footer{
+    margin: 0;
+    text-align: center;
+    padding: 15px 15px;
+    margin-top: 20px;
 }

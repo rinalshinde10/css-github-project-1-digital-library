@@ -1,5 +1,9 @@
 
-body
+body{
+    margin:0;
+    padding: 0;
+    background-color: #E3D4B9;
+}
 .book-container{
     display:flex;
     gap:30px;
@@ -53,25 +57,14 @@ body
 
 .button:hover{
     background-color: #e3b785;
-}
 
-.kids-back{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    border-radius: 100%;
-    }
-
-.back-image{
-    border: 1px;
-    border-radius: 100%;
 }  
 
 .back-image:hover{
     transform: translateY(-4px);
 }
 
-footer{
+.footer{
     margin:0;
     text-align: center;
     padding:15px 15px;
