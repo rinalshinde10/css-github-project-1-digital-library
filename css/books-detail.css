@@ -104,3 +104,88 @@ body {
 .back-image:hover {
     transform: translateY(-4px);
 }
+@media (max-width: 992px) {
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 280px;
+        height: auto;
+    }
+
+    .head-info {
+        font-size: 20px;
+    }
+
+    .font {
+        font-size: 21px;
+    }
+}
+
+
+/* ---------- Mobile Devices (max-width: 768px) ---------- */
+@media (max-width: 768px) {
+
+    body {
+        margin-top: 60px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    .head-info {
+        font-size: 18px;
+    }
+
+    .head-detail {
+        font-size: 14px;
+    }
+
+    .font {
+        font-size: 20px;
+    }
+
+    .project-discription {
+        font-size: 14px;
+    }
+
+    .view-button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    body {
+        margin-top: 40px;
+    }
+
+    .card {
+        width: 95%;
+    }
+
+    .head-info {
+        font-size: 16px;
+    }
+
+    .font {
+        font-size: 18px;
+    }
+
+    .view-button {
+        width: 90%;
+    }
+}
